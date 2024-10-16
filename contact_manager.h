@@ -13,5 +13,6 @@ void addInfo(char* file_name);
 void deleteInfo(char* file_name);
 void editInfo(char* file_name);
 void searchInfo(char* file_name);
+void press_key();
 
 #endif

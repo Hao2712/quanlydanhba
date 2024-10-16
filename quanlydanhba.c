@@ -4,9 +4,7 @@
     Chức năng: Thêm thông tin, Xoá thông tin, Chỉnh sửa thông tin, Tìm kiếm thông tin
 */
 #include <stdio.h>
-#include <windows.h>
 #include <stdlib.h>
-#include <conio.h>
 #include "contact_manager.h"
 #include "user_interface.h"
 
@@ -19,7 +17,6 @@ int main() {
         menu();
         printf("Chon chuc nang: ");
         scanf("%d", &option);
-        system("cls"); // Clear màn hình terminal
 
         switch (option) {
         case 1: // Thêm thông tin liên lạc

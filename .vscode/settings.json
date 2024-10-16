@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "conio.h": "c",
-        "contact_manager.h": "c"
+        "contact_manager.h": "c",
+        "stdio.h": "c"
     }
 }
